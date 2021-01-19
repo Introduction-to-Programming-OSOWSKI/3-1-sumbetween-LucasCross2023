@@ -1,4 +1,4 @@
-def sumBetween(num1, num2):
+def SumBetween(num1, num2):
     
     total = 0
     
