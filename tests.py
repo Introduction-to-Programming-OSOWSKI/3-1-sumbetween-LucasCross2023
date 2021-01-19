@@ -10,9 +10,9 @@ month = 11
 day = 19
 
 def test_code():
-    assert sumBetween(1,2) == 0, "x = 1 y = 2 failed"
-    assert sumBetween(3,7) == 15, "x = 3 y = 7 failed"
-    assert sumBetween(0,2) == 1, "x = 0 y = 1 failed"
+    assert main.sumBetween(1,2) == 0, "x = 1 y = 2 failed"
+    assert main.sumBetween(3,7) == 15, "x = 3 y = 7 failed"
+    assert main.sumBetween(0,2) == 1, "x = 0 y = 1 failed"
 
 def test_late():
     assert datetime.datetime.now() < datetime.datetime(year, month, day + 1, 4, 0), "Submitted Late"
